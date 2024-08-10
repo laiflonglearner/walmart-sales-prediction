@@ -4,7 +4,8 @@
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
-Walmart merupakan salah satu perusahaan retail multinasional terbesar di dunia. Walmart memiliki banyak pesaing yang bergerak di bidang retail sehingga diperlukan keputusan yang strategis agar bisa mempertahankan posisinya.
+Background:
+Walmart merupakan salah satu perusahaan retail multinasional terbesar di dunia. Walmart memiliki banyak pesaing yang bergerak di bidang retail sehingga diperlukan keputusan yang strategis agar bisa mempertahankan posisinya. Source: [Kaggle](https://www.kaggle.com/datasets/yasserh/walmart-dataset)
 
 ## Project Organization
 
@@ -26,7 +27,7 @@ Walmart merupakan salah satu perusahaan retail multinasional terbesar di dunia. 
 │                         the creator's initials, and a short `-` delimited description, e.g.
 │                         `1.0-jqp-initial-data-exploration`.
 │
-├── pyproject.toml     <- Project configuration file with package metadata for 
+├── pyproject.toml     <- Project configuration file with package metadata for
 │                         walmart_sales_prediction and configuration for tools like black
 │
 ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
@@ -49,13 +50,12 @@ Walmart merupakan salah satu perusahaan retail multinasional terbesar di dunia. 
     │
     ├── features.py             <- Code to create features for modeling
     │
-    ├── modeling                
-    │   ├── __init__.py 
-    │   ├── predict.py          <- Code to run model inference with trained models          
+    ├── modeling
+    │   ├── __init__.py
+    │   ├── predict.py          <- Code to run model inference with trained models
     │   └── train.py            <- Code to train models
     │
     └── plots.py                <- Code to create visualizations
 ```
 
---------
-
+---
